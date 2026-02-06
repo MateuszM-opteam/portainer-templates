@@ -34,41 +34,38 @@ configs:
       - Narzedzia Lokalne:
           - Portainer (localhost) - Zarządzanie Dockerem:
               - abbr: PO
-                icon: sh-portainer.svg
+                icon: si-portainer
                 href: http://localhost:9000/
                 description: http://localhost:9000
           - Portainer - Zarządzanie Dockerem:
               - abbr: PO
-                icon: sh-portainer.svg
+                icon: si-portainer
                 href: https://docker.localtest.me
                 description: https://docker.localtest.me      
-          - Dozzle - Podgląd logów kontenerów:
-              - abbr: DZ
-                icon: sh-dozzle.svg
-                href: https://logs.localtest.me
-                description: https://logs.localtest.me
-          - Traefik - Reverse proxy:
-              - abbr: TR
-                icon: sh-traefik.svg
-                href: https://proxy.localtest.me
-                description: https://proxy.localtest.me
+
       - nAxiom:
           - Wersje nAxiom:
               - abbr: PO
-                icon: sh-portainer.svg
-                href: http://localhost:9000/
-                description: Wersje nAxiom - Zarządzanie kontenerami
+                icon: mdi-download-box-outline
+                href: https://opteam.sharepoint.com/sites/nAxiomReleases/Releases
+                description: https://opteam.sharepoint.com/sites/nAxiomReleases/Releases
           - Dokumentacja nAxiom:
               - abbr: PO
-                icon: sh-portainer.svg
-                href: http://localhost:9000/
-                description: Dokumentacja nAxiom - Wiki
+                icon: mdi-book-open-blank-variant-outline
+                href: https://naxiom-docs.bitbucket.io/
+                description: https://naxiom-docs.bitbucket.io/
           - Nexus Developerski:
               - abbr: PO
-                icon: sh-portainer.svg
-                href: http://localhost:9000/
-                description: Nexus Developerski - Repozytorium artefaktów
+                icon: mdi-download-network-outline
+                href: http://nexus.naxiom.local
+                description: http://nexus.naxiom.local
+          - Nexus Produkcyjny:
+              - abbr: PO
+                icon: mdi-cloud-download-outline
+                href: http://repo.opteam.pl
+                description: http://repo.opteam.pl
 
+                
   traefik-tls-config:
     content: |
       tls:

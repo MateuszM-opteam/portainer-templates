@@ -388,7 +388,7 @@ services:
       # Homepage labels
       - "homepage.group=${DOMAIN_NAME}"
       - "homepage.name=Auth Service"
-      - "homepage.icon=si-lock-closed"
+      - "homepage.icon=mdi-login-variant"
       - "homepage.href=https://${DOMAIN_NAME}"
       - "homepage.description=Logowanie do nAxiom"
     
@@ -561,7 +561,7 @@ services:
       # Homepage labels
       - "homepage.group=${DOMAIN_NAME}"
       - "homepage.name=Frontend Application"
-      - "homepage.icon=si-admin-panel"
+      - "homepage.icon=mdi-account-box-outline"
       - "homepage.href=https://${DOMAIN_NAME}/front/"
       - "homepage.description=Logowanie do aplikacji nAxiom - frontend"
 
@@ -585,7 +585,7 @@ services:
       # Homepage labels
       - "homepage.group=${DOMAIN_NAME}"
       - "homepage.name=Backend Application"
-      - "homepage.icon=si-admin-panel"
+      - "homepage.icon=mdi-account-box-edit-outline"
       - "homepage.href=https://${DOMAIN_NAME}/admin/"
       - "homepage.description=Logowanie do aplikacji nAxiom - backend"
 
@@ -626,7 +626,7 @@ services:
       # Homepage labels
       - "homepage.group=${DOMAIN_NAME}"
       - "homepage.name=Tenant Admin"
-      - "homepage.icon=si-admin-panel"
+      - "homepage.icon=mdi-home-account"
       - "homepage.href=https://${DOMAIN_NAME}/tenantsadmin/"
       - "homepage.description=Logowanie do panelu administracji tenantami"
 
