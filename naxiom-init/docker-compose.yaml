@@ -636,10 +636,8 @@ networks:
   naxiom-internal:
     driver: bridge
   naxiom-common-db:
-    name: naxiom-common-db  
     external: true
   naxiom-common-npm:
-    name: naxiom-common-npm 
     external: true
 
 
