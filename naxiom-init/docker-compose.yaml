@@ -356,7 +356,7 @@ services:
       start_period: 8s
     labels:
       # Homepage labels
-      - "homepage.group=${DOMAIN_NAME}"
+      - "homepage.group=${COMPOSE_PROJECT_NAME}"
       - "homepage.name=RabbitMQ"
       - "homepage.icon=si-rabbitmq"
       - "homepage.href=https://${DOMAIN_NAME}/rabbitmq/"
@@ -386,7 +386,7 @@ services:
       - naxiom-common-db
     labels:
       # Homepage labels
-      - "homepage.group=${DOMAIN_NAME}"
+      - "homepage.group=${COMPOSE_PROJECT_NAME}"
       - "homepage.name=Auth Service"
       - "homepage.icon=mdi-login-variant"
       - "homepage.href=https://${DOMAIN_NAME}"
@@ -559,7 +559,7 @@ services:
       - naxiom-internal
     labels:
       # Homepage labels
-      - "homepage.group=${DOMAIN_NAME}"
+      - "homepage.group=${COMPOSE_PROJECT_NAME}"
       - "homepage.name=Frontend Application"
       - "homepage.icon=mdi-account-box-outline"
       - "homepage.href=https://${DOMAIN_NAME}/front/"
@@ -583,7 +583,7 @@ services:
       - naxiom-internal
     labels:
       # Homepage labels
-      - "homepage.group=${DOMAIN_NAME}"
+      - "homepage.group=${COMPOSE_PROJECT_NAME}"
       - "homepage.name=Backend Application"
       - "homepage.icon=mdi-account-box-edit-outline"
       - "homepage.href=https://${DOMAIN_NAME}/admin/"
@@ -624,7 +624,7 @@ services:
       - naxiom-internal
     labels:
       # Homepage labels
-      - "homepage.group=${DOMAIN_NAME}"
+      - "homepage.group=${COMPOSE_PROJECT_NAME}"
       - "homepage.name=Tenant Admin"
       - "homepage.icon=mdi-home-account"
       - "homepage.href=https://${DOMAIN_NAME}/tenantsadmin/"
