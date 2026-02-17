@@ -300,7 +300,7 @@ services:
   #   environment:
   #      DISABLE_IPV6: 'true'
   #      INITIAL_ADMIN_EMAIL: 'admin@admin'
-  #      INITIAL_ADMIN_PASSWORD: '!Q2w3e4r'   
+  #      INITIAL_ADMIN_PASSWORD: ''   
   #   volumes:
   #     - nginx_proxy_manager_data:/data
   #     - nginx_proxy_manager_letsencrypt:/etc/letsencrypt
