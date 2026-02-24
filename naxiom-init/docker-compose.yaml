@@ -316,7 +316,7 @@ services:
     labels:
       - "traefik.enable=true"
       - "traefik.docker.network=naxiom-common-npm"
-      - "traefik.http.routers.${COMPOSE_PROJECT_NAME}-nginx.rule=Host(`${DOMAIN_NAME}`)"
+      - "traefik.http.routers.${COMPOSE_PROJECT_NAME}-nginx.rule=HostRegexp(`^(.+\\.)?${DOMAIN_NAME}$`)"
       - "traefik.http.routers.${COMPOSE_PROJECT_NAME}-nginx.entrypoints=websecure"
       - "traefik.http.routers.${COMPOSE_PROJECT_NAME}-nginx.tls=true"
       - "traefik.http.services.${COMPOSE_PROJECT_NAME}-nginx.loadbalancer.server.port=80"
